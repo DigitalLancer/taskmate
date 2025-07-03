@@ -50,11 +50,12 @@ ul li .list-item p {
     min-height: 80px;
     height: auto;
     width: 100%;
-    background-color: rgb(242, 242, 242);
-    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
     border-radius: 5px;
     position: relative;
     display: none;
+    margin-bottom: 10px
 }
 .edit-form-container.active{
     display: block;
@@ -65,23 +66,25 @@ ul li .list-item p {
 .edit-form-container input{
     border: none;
     border-radius: 5px;
-    padding: 5px;
+    border: solid 1px rgb(173, 173, 173);
+    padding: 8px;
     font-size: 0.9rem;
     color: rgb(77, 77, 77);
     width: 100%;
+}
+.edit-form-container input:focus{
+    outline: none;
 }
 .edit-form-container label{
     margin-right: 5px;
 }
 .colors-container{
     display: flex;
-    gap: 6px;
+    gap: 8px;
     
 }
 .color-pick{
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
+    margin-top: 15px;
     
 }
 .color-pick h3{
@@ -90,22 +93,25 @@ ul li .list-item p {
     font-weight: 500;
 }
 .highlight-color{
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     border-radius: 50%;
     cursor: pointer;
     padding: 0;
-    border: none;
+    border: 1px solid rgb(173, 173, 173);
 }
 
 .highlight-color.red{
-    background-color: rgb(223, 2, 2);
+    background-color: #ff3131;
 }
 .highlight-color.yellow{
     background-color: rgb(247, 218, 0);
 }
 .highlight-color.green{
     background-color: rgb(68, 226, 0);
+}
+.highlight-color.transparent{
+    background-color: white;
 }
 .edit-form-container .edit-submit-btn{
     padding: 0;
@@ -118,4 +124,8 @@ ul li .list-item p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.edit-form-container h3{
+    color: rgb(46, 46, 46);
+    margin-bottom: 5px;
 }
