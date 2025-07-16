@@ -8,7 +8,7 @@ A simple and intuitive web app for tracking your tasks! Users can add tasks, edi
 
 🎨 Change task highlight color for better organization
 
-📦 Persistent data storage (e.g. localStorage or backend API)
+📦 Persistent data storage
 
 ## Tools Used
 - React for frontend
