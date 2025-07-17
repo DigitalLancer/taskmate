@@ -14,3 +14,22 @@ A simple and intuitive web app for tracking your tasks! Users can add tasks, edi
 - React for frontend
 - Express / Node.js for backend
 - Local JSON file for data storage
+
+## 📦 Installation
+1. Clone the repository
+2. Install dependencies:
+```
+cd server
+npm install
+
+cd ../client
+npm install
+```
+3. Start the app
+```
+cd server
+node index.js
+
+cd ../client
+npm run dev
+```
